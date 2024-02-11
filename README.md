@@ -1,4 +1,3 @@
-![С чем я буду работать?](https://prognote.ru/wp-content/uploads/2020/06/такое-SQL.jpg)
 <table>
 <tr>
 <td>
