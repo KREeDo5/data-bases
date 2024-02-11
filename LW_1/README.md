@@ -15,6 +15,9 @@
 9. Компьютеры, железо, комплектация
 
 Литература по теме 1.
+
 [Инфологическая модель данных "Сущность - связь"](http://citforum.ru/database/dbguide/2-1.shtml)
+
 [Презентация по теме](https://www.dropbox.com/scl/fo/kvipozp4kdr9nm9kc8a8n/h?dl=0&e=1&preview=1.Введение+в+базы+данных.pdf&rlkey=irq7hd3ak4wxyt18ru5u6dde4)
+
 [Лекция на YouTube](https://www.youtube.com/watch?v=A2wt1Bgn_M4)
