@@ -24,3 +24,9 @@
 [Презентация по теме](https://www.dropbox.com/scl/fo/kvipozp4kdr9nm9kc8a8n/h?dl=0&preview=2.Реляционная+модель+данных.+ER+диаграмма.pdf)
 
 [Лекция на YouTube](https://www.youtube.com/watch?v=Z4lVTw1Bdxs)
+
+
+Изученный доп.материал:
+
+[Лабораторная работа №5 создание ER-диаграммы в Drow.io](https://www.youtube.com/watch?v=uKImrwjOKTU&t=838s)
+
