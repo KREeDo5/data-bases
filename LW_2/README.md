@@ -18,6 +18,7 @@
 
 6.Кинотеатры, фильмы, прокат фильмов.
 7.Накладные, товары, товары в накладных.
+[Подробнее](https://www.dropbox.com/scl/fo/kvipozp4kdr9nm9kc8a8n/h/Лабораторные%20работы?dl=0&preview=2.pdf&subfolder_nav_tracking=1)
 
 Литература по теме 2.
 
