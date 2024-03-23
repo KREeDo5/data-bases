@@ -1,61 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2024-02-11T17:17:35.365Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="ctBIjwPopesEljTHWixI" version="22.1.16" type="google">
+<mxfile host="Electron" modified="2024-03-09T11:15:32.237Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="_R_-5gBoWQ9Jx94tFWH-" version="23.1.5" type="device">
   <diagram name="Страница — 1" id="BhnN5bI0OgbwB4oTTsHm">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1418" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="vYpJ-AXUJ6ZxkFZRSXi--1" value="Список аптек" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="110" y="100" width="160" height="140" as="geometry" />
+        <mxCell id="vYpJ-AXUJ6ZxkFZRSXi--3" value="Аптека" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="340" y="250" width="160" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="vYpJ-AXUJ6ZxkFZRSXi--2" value="&lt;font color=&quot;#ff0000&quot;&gt;- id_список_аптек&lt;br&gt;&lt;/font&gt;- id_аптека 1&lt;br&gt;- id_аптека 2&lt;br&gt;- id_аптека 3&lt;br&gt;- id_аптека 4" style="align=left;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="vYpJ-AXUJ6ZxkFZRSXi--1">
-          <mxGeometry y="50" width="160" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="vYpJ-AXUJ6ZxkFZRSXi--3" value="Аптека" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="350" y="240" width="160" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="vYpJ-AXUJ6ZxkFZRSXi--4" value="&lt;font color=&quot;#ff0000&quot;&gt;- id_аптека&lt;br&gt;&lt;/font&gt;- id_адрес&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- id_список_сотрудников&lt;br&gt;- id_список_товаров&lt;br&gt;- время работы&amp;nbsp;&lt;br&gt;- статус" style="align=left;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="vYpJ-AXUJ6ZxkFZRSXi--3">
+        <mxCell id="vYpJ-AXUJ6ZxkFZRSXi--4" value="&lt;font color=&quot;#ff0000&quot;&gt;- id_аптека&lt;br&gt;&lt;/font&gt;- id_адрес&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- id_сотрудник&lt;br&gt;- список_товаров&lt;br&gt;- время работы&amp;nbsp;&lt;br&gt;- статус" style="align=left;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="vYpJ-AXUJ6ZxkFZRSXi--3" vertex="1">
           <mxGeometry y="50" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="vYpJ-AXUJ6ZxkFZRSXi--7" value="Товар (лекарство)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="810" y="450" width="160" height="230" as="geometry" />
+        <mxCell id="vYpJ-AXUJ6ZxkFZRSXi--7" value="Товар (лекарство)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="880" y="420" width="160" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="vYpJ-AXUJ6ZxkFZRSXi--8" value="&lt;font color=&quot;#ff0000&quot;&gt;- id_товар&lt;br&gt;&lt;/font&gt;- id_категория&lt;br&gt;- id_список_изображений&lt;br&gt;- id_список_отзывов&lt;br&gt;- артикул&lt;br&gt;- название&lt;br&gt;- описание&lt;br&gt;- цена&lt;br&gt;- цена со скидкой&lt;br&gt;- рейтинг&lt;br&gt;- остаток" style="align=left;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="vYpJ-AXUJ6ZxkFZRSXi--7">
+        <mxCell id="vYpJ-AXUJ6ZxkFZRSXi--8" value="&lt;font color=&quot;#ff0000&quot;&gt;- id_товар&lt;br&gt;&lt;/font&gt;- категория&lt;br&gt;- название&lt;br&gt;- описание&lt;br&gt;- цена&lt;br&gt;- скидка&lt;br&gt;- рейтинг" style="align=left;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="vYpJ-AXUJ6ZxkFZRSXi--7" vertex="1">
           <mxGeometry y="50" width="160" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="vYpJ-AXUJ6ZxkFZRSXi--11" value="Список товаров (наличие)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="580" y="340" width="160" height="150" as="geometry" />
+        <mxCell id="vYpJ-AXUJ6ZxkFZRSXi--11" value="Список товаров (наличие)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="620" y="310" width="160" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="vYpJ-AXUJ6ZxkFZRSXi--12" value="&lt;font color=&quot;#ff0000&quot;&gt;- id_список_товаров&lt;br&gt;&lt;/font&gt;- id_товар 1&lt;br style=&quot;border-color: var(--border-color); color: rgb(255, 0, 0);&quot;&gt;- id_товар 2&lt;br&gt;- id_товар 3&lt;br&gt;- id_товар 4" style="align=left;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="vYpJ-AXUJ6ZxkFZRSXi--11">
+        <mxCell id="vYpJ-AXUJ6ZxkFZRSXi--12" value="&lt;font color=&quot;#ff0000&quot;&gt;- id_товар&lt;br&gt;&lt;/font&gt;- id_аптека&lt;br&gt;- остаток" style="align=left;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="vYpJ-AXUJ6ZxkFZRSXi--11" vertex="1">
           <mxGeometry y="50" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="vYpJ-AXUJ6ZxkFZRSXi--14" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.009;entryY=0.142;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vYpJ-AXUJ6ZxkFZRSXi--4" target="vYpJ-AXUJ6ZxkFZRSXi--11">
+        <mxCell id="vYpJ-AXUJ6ZxkFZRSXi--14" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vYpJ-AXUJ6ZxkFZRSXi--4" target="vYpJ-AXUJ6ZxkFZRSXi--11" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="590" y="370" as="sourcePoint" />
             <mxPoint x="665" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vYpJ-AXUJ6ZxkFZRSXi--17" value="Адрес" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="vYpJ-AXUJ6ZxkFZRSXi--17" value="Адрес" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="109" y="360" width="160" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="vYpJ-AXUJ6ZxkFZRSXi--18" value="&lt;font color=&quot;#ff0000&quot;&gt;- id_адрес&lt;br&gt;&lt;/font&gt;- республика&lt;br&gt;- id_город&lt;br&gt;- улица&lt;br&gt;- дом&lt;br&gt;- подъезд&lt;br&gt;- ширина&lt;br&gt;- долгота" style="align=left;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="vYpJ-AXUJ6ZxkFZRSXi--17">
+        <mxCell id="vYpJ-AXUJ6ZxkFZRSXi--18" value="&lt;font color=&quot;#ff0000&quot;&gt;- id_адрес&lt;br&gt;&lt;/font&gt;- республика&lt;br&gt;- город&lt;br&gt;- улица&lt;br&gt;- дом&lt;br&gt;- подъезд&lt;br&gt;- ширина&lt;br&gt;- долгота" style="align=left;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="vYpJ-AXUJ6ZxkFZRSXi--17" vertex="1">
           <mxGeometry y="50" width="160" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="vYpJ-AXUJ6ZxkFZRSXi--20" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1.016;entryY=0.135;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vYpJ-AXUJ6ZxkFZRSXi--4" target="vYpJ-AXUJ6ZxkFZRSXi--17">
+        <mxCell id="vYpJ-AXUJ6ZxkFZRSXi--20" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1.016;entryY=0.135;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vYpJ-AXUJ6ZxkFZRSXi--4" target="vYpJ-AXUJ6ZxkFZRSXi--17" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="282" y="425" as="sourcePoint" />
             <mxPoint x="357" y="465" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vYpJ-AXUJ6ZxkFZRSXi--21" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0.005;exitY=0.144;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.002;entryY=0.808;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vYpJ-AXUJ6ZxkFZRSXi--3" target="vYpJ-AXUJ6ZxkFZRSXi--2">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="320" y="220" as="sourcePoint" />
-            <mxPoint x="400" y="120" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vYpJ-AXUJ6ZxkFZRSXi--22" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=-0.008;exitY=0.107;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="vYpJ-AXUJ6ZxkFZRSXi--7" target="vYpJ-AXUJ6ZxkFZRSXi--12">
+        <mxCell id="vYpJ-AXUJ6ZxkFZRSXi--22" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=-0.008;exitY=0.107;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.11;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vYpJ-AXUJ6ZxkFZRSXi--7" target="vYpJ-AXUJ6ZxkFZRSXi--12" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="891" y="360" as="sourcePoint" />
             <mxPoint x="810" y="319" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pJPzbj-Sb64vGoMfNYHq-1" value="Сотрудник" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="680" y="70" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="pJPzbj-Sb64vGoMfNYHq-2" value="&lt;font color=&quot;#ff0000&quot;&gt;- id_сотрудник&lt;br&gt;- id_аптека&lt;br&gt;&lt;/font&gt;- фамилия&lt;br&gt;- имя&lt;br&gt;- отчество&lt;br&gt;- дата начала работы" style="align=left;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="pJPzbj-Sb64vGoMfNYHq-1" vertex="1">
+          <mxGeometry y="50" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pJPzbj-Sb64vGoMfNYHq-4" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0.988;exitY=0.375;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.006;entryY=0.13;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vYpJ-AXUJ6ZxkFZRSXi--4" target="pJPzbj-Sb64vGoMfNYHq-2" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="429" y="154" as="sourcePoint" />
+            <mxPoint x="320" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
